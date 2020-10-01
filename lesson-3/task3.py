@@ -11,4 +11,3 @@ elif 8 < month < 12:
     print(season_list[3])
 else:
     print(season_list[0])
-

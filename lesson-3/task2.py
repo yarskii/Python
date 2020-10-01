@@ -5,6 +5,8 @@ while i <= len(a):
         break
     if i >= len(a) - 1:
         break
-    a[i], a[i + 1] = a[i + 1], a[i]
+    c = a[i]
+    a[i] = a[i + 1]
+    a[i + 1] = c
     i += 2
 print(a)
