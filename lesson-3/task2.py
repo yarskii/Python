@@ -1,12 +1,4 @@
-a = [1, 1.32, None, True, 'True', [1, 5], {}, ()]
-i = 0
-while i <= len(a):
-    if len(a) == 1:
-        break
-    if i >= len(a) - 1:
-        break
-    c = a[i]
-    a[i] = a[i + 1]
-    a[i + 1] = c
-    i += 2
-print(a)
+def my_data(name, sername, birth, city, email, phone):
+    print(f'Имя - {name}; Фамилия - {sername}; Год рождения - {birth}; Город - {city}; Почта - {email}; Телефон - {phone}.')
+
+my_data(name = 'Yaroslav', sername = 'Gusev', birth = 1992, city = 'Piter', email = 'email@email.ru', phone = 123456789)
