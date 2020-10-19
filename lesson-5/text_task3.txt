@@ -1,0 +1,10 @@
+Ivanov 10000.23 p.
+Petrov 11000 p.
+Kozlov 12000 p.
+Baranov 13000 p.
+Rakov 14000 p.
+Sidorov 20000 p.
+Frolov 21000 p.
+Lojkin 22000 p.
+Vilkin 23000 p.
+Palkin 24000 p.
